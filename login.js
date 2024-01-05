@@ -19,5 +19,6 @@ button.addEventListener("click",(e)=>{
         p.innerHTML=""
         input2.value=""
     }
+    form.submit()
     
 })
