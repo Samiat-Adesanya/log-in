@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper input{
+    display: block;
+     padding: 13px 4rem; 
+    border-radius: 20px;
+    outline: none;
+    background-color: #fff;
+    opacity: 0.5;
+    border: none;
+}
+.wrapper button{
+    padding: 13px 8.1rem; 
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(92, 92, 221);
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+.wrapper button:hover{
+    background-color: #fff;
+    color:rgb(92, 92, 221) ;
+}
+.wrapper span{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    color: #fff;
+}
+.wrapper h1{
+    margin: 30px 0 3.5rem 0;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 8px;
+}
+ div.password{
+    margin: 20px 0;
+}
+.wrapper{
+    margin: 20px auto;
+    width: 25%;
+    
+}
+form{
+    background-image: url("bank slider.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px 20px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 9px 0px #888;
+}
+div.checked{
+    margin: 0 auto;
+}
+@media (max-width:1200px) {
+    .wrapper input{
+        padding: 13px 2rem;
+    }
+    .wrapper button{
+        padding: 13px 6rem; 
+    }
+    .wrapper{
+        margin: 50px auto;
+        width: 90%;
+    }
+    form{
+        padding: 45px auto;
+    }
+}
